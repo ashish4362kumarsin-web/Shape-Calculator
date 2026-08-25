@@ -27,16 +27,11 @@ Both files must be kept in the same folder.
 
 ## Run the calculator
 
-Open a terminal in the project folder and run:
+Make sure `shape_calc.py` and `derives.py` are in the same folder.
 
+Open a terminal in the project folder and run:
 ```bash
 python shape_calc.py
-```
-
-If you are using the corrected version provided with this project, rename `shape_calc_corrected.py` to `shape_calc.py` (or run it by its existing name) and keep `derives.py` beside it:
-
-```bash
-python shape_calc_corrected.py
 ```
 
 ## Example

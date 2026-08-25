@@ -1,112 +1,32 @@
-# ------ Main Entrance ------
+# Menu helper required by shape_calc_corrected.py.
 
 def main_entrance():
-    print(r"""
-        +-----------------------------------+
-        |    //===SHAPE CALCULATOR==//      |
-        +-----------------------------------+
-        |  1  -> Maths                      |
-        |  0  -> Exit                       |
-        +-----------------------------------+""")
+    print("\nSHAPE CALCULATOR\n1  -> Maths\n0  -> Exit")
 
-# ----- Second Main Entrance -----
 
 def a_v_entrance():
-    print(r"""
-            +-------------------------------------+
-            |      //===SHAPE CALCULATOR==//      |
-            +-------------------------------------+
-            |  1  -> Area                         |
-            |  2  -> Volume                       |
-            |  b  -> Back                         |
-            |  0  -> Exit                         |
-            +-------------------------------------+""")
+    print("\nSHAPE CALCULATOR\n1  -> Area\n2  -> Volume\nb  -> Back\n0  -> Exit")
 
-# ------ Area Dimensions Entrance-----
+
 def a_dimension_entrance():
-    print(r"""
-        +---------------------------------------+
-        |          //===Dimensions===//         |
-        +---------------------------------------+
-        |  1  -> 2_Dimensional(2D)              |
-        |  2  -> 3_Dimensional(3D)              |
-        |  b  -> Back                           |
-        |  0  -> Exit                           |  
-        +---------------------------------------+""")
+    print("\nDIMENSIONS\n1  -> 2-Dimensional (2D)\n2  -> 3-Dimensional (3D)\nb  -> Back\n0  -> Exit")
 
-# ------ Area Dimensions 2D -----
 
 def a_dim_2d():
-    print(r"""
-        +---------------------------------------------+
-        |       //===== AREA CALCULATOR =====//       |
-        +---------------------------------------------+
-        |  1  -> Triangle                             |
-        |  2  -> Rectangle                            |
-        |  3  -> Square                               |
-        |  4  -> Parallelogram                        |
-        |  5  -> Rhombus                              |
-        |  6  -> Trapezium                            |
-        |  7  -> Circle                               |
-        |  8  -> Semicircle                           |
-        |  b  -> Back                                 |
-        |  0  -> Exit                                 |
-        +---------------------------------------------+""")
+    print("\nAREA CALCULATOR\n1  -> Triangle\n2  -> Rectangle\n3  -> Square\n4  -> Parallelogram\n5  -> Rhombus\n6  -> Trapezium\n7  -> Circle\n8  -> Semicircle\nb  -> Back\n0  -> Exit")
 
-# ------ Area Dimensions 3D -----
 
 def a_dim_3d():
-    print(r"""
-        +--------------------------------------------------+
-        |           //=====AREA CALCULATOR=====//          |
-        +--------------------------------------------------+
-        |  1  -> Cube                                      |
-        |  2  -> Cuboid                                    |
-        |  3  -> Cylinder                                  |
-        |  4  -> Cone                                      |
-        |  5  -> Sphere                                    |
-        |  6  -> HemiSphere                                |
-        |  b  -> back                                      |
-        |  0  -> Exit                                      |
-        +--------------------------------------------------+""")
+    print("\nAREA CALCULATOR\n1  -> Cube\n2  -> Cuboid\n3  -> Cylinder\n4  -> Cone\n5  -> Sphere\n6  -> Hemisphere\nb  -> Back\n0  -> Exit")
 
-# Area Dimensions 3D - TSA and LSA
 
 def a_dim_tsa_lsa():
-    print(r"""
-        +---------------------------------------------+
-        |          //===SHAPE CALCULATOR==//          |
-        +---------------------------------------------+
-        |  1  -> Total Surface Area(TSA)              |
-        |  2  -> Lateral Surface Area(LSA)            |
-        |  b  -> Back                                 |
-        |  0  -> Exit                                 |  
-        +---------------------------------------------+""")
+    print("\nSHAPE CALCULATOR\n1  -> Total Surface Area (TSA)\n2  -> Lateral Surface Area (LSA)\nb  -> Back\n0  -> Exit")
 
-# Volume shapes entrance
 
 def v_shapes_entrance():
-    print(r"""
-        +---------------------------------------------+
-        |       //=====VOLUME CALCULATOR=====//       |
-        +---------------------------------------------+
-        |  1  -> Cube                                 |
-        |  2  -> Cuboid                               |
-        |  3  -> Cylinder                             |
-        |  4  -> Cone                                 |
-        |  5  -> Sphere                               |
-        |  6  -> HemiSphere                           |
-        |  b  -> Back                                 |
-        |  0  -> Exit                                 |
-        +---------------------------------------------+""")
+    print("\nVOLUME CALCULATOR\n1  -> Cube\n2  -> Cuboid\n3  -> Cylinder\n4  -> Cone\n5  -> Sphere\n6  -> Hemisphere\nb  -> Back\n0  -> Exit")
+
 
 def cir_a_c_entrance():
-    print(r"""
-        +---------------------------------------------+
-        |          //===SHAPE CALCULATOR==//          |
-        +---------------------------------------------+
-        |  1  -> Area                                 |
-        |  2  -> Circumference                        |
-        |  b  -> Back                                 |
-        |  0  -> Exit                                 |  
-        +---------------------------------------------+""")
+    print("\nSHAPE CALCULATOR\n1  -> Area\n2  -> Circumference\nb  -> Back\n0  -> Exit")
